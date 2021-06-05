@@ -1,0 +1,26 @@
+#thelist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#box{
+  background-color: rgb(230, 230, 230);
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  height:300px
+}
+#box:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.center{
+  text-align: left;
+}
+h1{
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+}
